@@ -1,0 +1,46 @@
+/* blog post page */
+
+.flex-container-blog {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  font-family: 'Playfair Display', serif;
+}
+
+.article-title,
+.article-subtitle,
+.article-summary {
+  font-style: italic
+}
+
+blockquote {
+  background-color: tomato;
+  color: white;
+  padding: 5px;
+}
+
+.flex-container-social{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.flex-container-social div {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.flex-container-social div a:link, a:visited, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.flex-container-social div a:hover {
+  text-decoration: underline overline tomato;
+}

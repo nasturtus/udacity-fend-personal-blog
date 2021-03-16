@@ -1,0 +1,11 @@
+header {
+  padding-top: 50px;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+}
+
+.tomato {
+  color: tomato;
+}

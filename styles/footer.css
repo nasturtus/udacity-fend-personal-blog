@@ -1,0 +1,35 @@
+.subscription-form {
+  background-color: black;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+input {
+  border: none;
+  background-color: black;
+  color: white;
+  border-bottom: solid 1px white;
+}
+
+.tomato {
+  color: tomato;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  background-color: tomato;
+  color: white;
+  font-family: 'Expletus Sans', sans-serif;
+  font-weight: 700;
+  border-color: black;
+  border-radius: 5px;
+}
+
