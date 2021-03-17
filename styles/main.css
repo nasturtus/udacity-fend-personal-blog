@@ -49,16 +49,13 @@
   padding: 10px;
 }
 
-.hero-text a:link {
+.hero-text-link:link,
+.hero-text-link:visited {
   color: tomato;
 }
 
-.hero-text a:hover {
+.hero-text-link:hover {
   color: white;
-}
-
-.hero-text a:visited {
-  color: rgb(183, 172, 172);
 }
 
 .hero-image-caption {
