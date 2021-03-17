@@ -47,3 +47,52 @@ blockquote {
   text-decoration: underline overline tomato;
 }
 
+.author-card {
+  font-family: 'Expletus Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: minmax(100px, 500px) 1fr;
+  grid-template-areas: 
+  "avatar"
+  "name"
+  "title"
+  "org"
+  "bio"
+  ;
+  row-gap: 0;
+}
+
+.avatar {
+  width: 100px;
+  grid-area: avatar;
+  margin: 10px auto;
+}
+
+.name {
+  grid-area: name;
+}
+
+.author-title {
+  grid-area: title;
+}
+
+.org {
+  grid-area: org;
+}
+
+.bio {
+  grid-area: bio;
+  padding: 10px;
+  color: tomato;
+}
+
+.name,
+.org,
+.bio,
+.author-title {
+  text-align: center;
+}
